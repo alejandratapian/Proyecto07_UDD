@@ -1,4 +1,4 @@
-#Este será el archivo principal donde construirás tu API Flask.
+#Este será el archivo principal donde se construira API Flask.
 from flask import Flask, request, jsonify
 import pickle
 import os

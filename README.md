@@ -20,10 +20,8 @@ Este proyecto utiliza análisis de sentimientos en reseñas de Google Play Store
      "Se utilizó un modelo llamado **Regresión Logística**. Este tipo de modelo trata de encontrar patrones en los datos para hacer predicciones. Después de ajustar el modelo con diferentes configuraciones (hiperparámetros), se mejoró su capacidad para clasificar correctamente las reseñas."
      
 
-"Se implementaron dos modelos principales: **Regresión Logística** y **Random Forest**. La regresión logística busca patrones lineales en los datos para hacer predicciones. Por otro lado, Random Forest es un modelo basado en árboles de decisión, donde múltiples árboles colaboran para mejorar la precisión. Random Forest es especialmente útil para capturar relaciones no lineales en los datos."
-
    - **Ajuste de Hiperparámetros:**
-     "Se utilizó **Grid Search** para ajustar los hiperparámetros del modelo **Random Forest. **, el cual es un modelo basado en árboles de decisión, donde múltiples árboles colaboran para mejorar la precisión. Random Forest es especialmente útil para capturar relaciones no lineales en los datos. “
+     "Se utilizó **Grid Search** para ajustar los hiperparámetros del modelo **Random Forest**, el cual es un modelo basado en árboles de decisión, donde múltiples árboles colaboran para mejorar la precisión. Random Forest es especialmente útil para capturar relaciones no lineales en los datos. “
 “Grid Search es un proceso exhaustivo que prueba varias combinaciones de configuraciones de parámetros para encontrar la que ofrece el mejor rendimiento. En este caso, se ajustaron parámetros como el número de árboles (`n_estimators`) y la profundidad de los mismos (`max_depth`). El ajuste con Grid Search permitió mejorar el **accuracy** del modelo de 0.82 a 0.87."
 
 ### 3. **Datos y Limpieza:**
@@ -43,9 +41,6 @@ Este proyecto utiliza análisis de sentimientos en reseñas de Google Play Store
    - **Pruebas del Modelo:**
      "Se probó el modelo con frases de ejemplo como 'I love this game!' (Me encanta este juego), 'It's okay, nothing special.' (Está bien, nada especial), y 'I can't stand this app!' (¡No soporto esta aplicación!)."
 
-Dado que en el código efectivamente realizaste el ajuste y la prueba del modelo ensamblado (**Voting Classifier**), el README debe reflejarlo correctamente. Aquí te dejo una actualización de la sección relevante, incluyendo el ajuste de hiperparámetros y el uso del modelo ensamblado:
-
----
 
 ### 5. **Ajustes y Mejoras:**
    - **Ajuste de Hiperparámetros:**
